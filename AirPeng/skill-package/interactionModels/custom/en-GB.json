@@ -1,0 +1,93 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "air pollution",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AQIIntent",
+          "slots": [
+            {
+              "name": "city",
+              "type": "AMAZON.City"
+            }
+          ],
+          "samples": [
+            "What is the air quality in {city}",
+            "What is the current air quality index in {city}",
+            "What is the current AQI in {city}",
+            "What is the quality of the air in {city}",
+            "What is the quality of the air",
+            "What is the current air quality index",
+            "What is the current AQI"
+          ]
+        },
+        {
+          "name": "CarbonMonoxideIntent",
+          "slots": [],
+          "samples": [
+            "carbon monoxide",
+            "What is the level of carbon monoxide",
+            "What is the level of CO"
+          ]
+        },
+        {
+          "name": "NitrogenDioxideIntent",
+          "slots": [],
+          "samples": [
+            "nitrogen dioxide",
+            "What is the level of nitrogen dioxide in the air",
+            "What is the concentration of nitrogen dioxide"
+          ]
+        },
+        {
+          "name": "ParticulateMatter",
+          "slots": [],
+          "samples": [
+            "particulate matter",
+            "What is the concentration of particulate matter in the air"
+          ]
+        },
+        {
+          "name": "OzoneIntent",
+          "slots": [],
+          "samples": [
+            "Concentration of ozone in the air",
+            "ozone",
+            "What are the levels of ozone in the troposphere"
+          ]
+        },
+        {
+          "name": "SulfurDioxideIntent",
+          "slots": [],
+          "samples": [
+            "What is the concentration of sulfur dioxide",
+            "How much sulfur dioxide is in the air",
+            "Sulfur Dioxide "
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "10"
+}
